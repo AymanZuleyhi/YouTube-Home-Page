@@ -1,0 +1,5 @@
+@media (1300px <= width <= 10000px) {
+  .small-sidebar {
+  display: none;
+  }
+  }

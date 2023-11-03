@@ -1,0 +1,125 @@
+@media (0px <= width <= 1100px) {
+
+  .shorts-header{
+    margin-left: 80px;
+  }
+
+  .shorts-thumbnail-box {
+  grid-template-columns: 32% 32% 32%;
+  padding: 0;
+  padding-left: 80px;
+  padding-right: 30px;
+  }
+  .shorts-box-4,
+  .shorts-box-5,
+  .shorts-box-6,
+  .shorts-box-7,
+  .shorts-box-8,
+  .shorts-box-9 {
+    display: none;
+
+
+  }
+
+  }
+
+  @media (1100px <= width <= 1153px) {
+
+    .shorts-header{
+      margin-left: 80px;
+    }
+
+    .shorts-thumbnail-box {
+    grid-template-columns: 24% 24% 24% 24% ;
+    padding: 0;
+    padding-left: 80px;
+    padding-right: 30px;
+    }
+    .shorts-box-5,
+    .shorts-box-6,
+    .shorts-box-7,
+    .shorts-box-8,
+    .shorts-box-9 {
+      display: none;
+    }
+  }
+
+
+  @media (1153px <= width <= 1300px) {
+    .shorts-header{
+      margin-left: 80px;
+    }
+    .shorts-thumbnail-box {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin:0;
+    margin-left: 80px;
+    margin-right: 50px; 
+    }
+    .shorts-box-6,
+    .shorts-box-7,
+    .shorts-box-8,
+    .shorts-box-9 {
+      display: none;
+    }
+    }
+
+    @media (1301px <= width <= 1600px) {
+
+      .shorts-header{
+        margin-left: 250px;
+      }
+      .shorts-thumbnail-box {
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      margin-left:250px;
+      margin-right: 50px;
+      }
+      .shorts-box-6,
+      .shorts-box-7,
+      .shorts-box-8,
+      .shorts-box-9 {
+        display: none;
+      }
+      }
+
+    @media (1600px <= width <= 2000px) {
+      .shorts-header{
+        margin-left: 250px;
+      }
+      .shorts-thumbnail-box {
+      grid-template-columns: 16% 16% 16% 16% 16% 16% ;
+      margin-left:250px;
+      }
+      .shorts-box-7,
+      .shorts-box-8,
+      .shorts-box-9 {
+        display: none;
+      }
+     
+      }
+
+      @media (2000px <= width <= 2230px) {
+        .shorts-header{
+          margin-left: 260px;
+        }
+        .shorts-thumbnail-box {
+        grid-template-columns: 14% 14% 14% 14% 14% 14% 14% ;
+        margin-left:250px;
+        margin-right: 50px;
+        }
+        .shorts-box-8,
+        .shorts-box-9 {
+          display: none;
+        }
+        }
+
+        @media (2230px <= width <= 10000px) {
+
+          .shorts-header{
+            margin-left: 250px;
+          }
+          .shorts-thumbnail-box {
+          grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11% ;
+          margin-left:250px;
+          margin-right: 120px;
+          }
+          }

@@ -1,0 +1,71 @@
+.header-buttons-menu {
+  background-color: white;
+  position:fixed;
+  top: 8px;
+  left: 0px;
+  right: 0px;
+  z-index: 98;
+
+  padding-bottom: 20px;
+  padding-left: 37px;
+}
+
+.button1-black {
+  font-style: roboto;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 73px;
+  margin-left: 232px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+}
+
+.button2-white,
+.button3-white,
+.button4-white,
+.button5-white,
+.button6-white,
+.button7-white,
+.button8-white,
+.button9-white,
+.button10-white,
+.button11-white,
+.button12-white {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgb(242,242,242);
+  color: black;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+}
+
+.button2-white:hover,
+.button2-white:hover,
+.button3-white:hover,
+.button4-white:hover,
+.button5-white:hover,
+.button6-white:hover,
+.button7-white:hover,
+.button8-white:hover,
+.button9-white:hover,
+.button10-white:hover,
+.button11-white:hover,
+.button12-white:hover {
+  background-color: rgb(228, 228, 228);
+}

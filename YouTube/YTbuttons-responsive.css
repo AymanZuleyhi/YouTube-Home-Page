@@ -1,0 +1,54 @@
+
+
+
+
+@media (800px <= width <= 999px) {    
+  .button1-black {
+  margin-left: 50px;
+}
+.button-9-white,
+.button10-white,
+.button11-white,
+.button12-white {
+display: none;
+}
+}
+
+
+
+
+
+
+@media (1000px <= width <= 1120px) {    
+  .button1-black {
+  margin-left: 50px;
+}
+.button10-white,
+.button11-white,
+.button12-white {
+display: none;
+}
+}
+
+@media (1121px <= width <= 1300px) {    
+  .button1-black {
+  margin-left: 50px;
+}
+.button11-white,
+.button12-white {
+display: none;
+}
+}
+
+@media (1301px <= width <= 1432px) {    
+.button11-white,
+.button12-white {
+display: none;
+}
+}
+
+@media (1433px <= width <= 1471px) {    
+.button12-white {
+display: none;
+}
+}

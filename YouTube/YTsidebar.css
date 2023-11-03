@@ -1,0 +1,185 @@
+.sidebar {
+  position:fixed;
+  bottom:0px;
+  left: 0px;
+  width: 230px;
+  top: 70px;
+  padding-left: 10px;
+  background-color: white;
+  overflow: auto;
+  z-index: 99;
+}
+
+.sidebar-image {
+  width: 35px;
+  padding-right: 20px;
+}
+
+.sidebar-text {
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.you,
+.explore,
+.more-from-youtube {
+  font-family: roboto;
+  font-weight: 500;
+
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+}
+ 
+
+
+
+
+.first-sidebar-section,
+.second-sidebar-section,
+.third-sidebar-section,
+.fourth-sidebar-section,
+.fifth-sidebar-section {
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(202, 202, 202);
+  margin-top: 10px;
+}
+
+.third-sidebar-section {
+  margin-top: 15px;
+}
+
+
+.sidebar-1,
+.sidebar-2,
+.sidebar-3,
+.sidebar-4,
+.sidebar-5,
+.sidebar-6,
+.sidebar-7,
+.sidebar-8,
+.sidebar-9,
+.sidebar-10,
+.sidebar-11,
+.sidebar-12,
+.sidebar-13,
+.sidebar-14,
+.sidebar-15,
+.sidebar-16,
+.sidebar-17,
+.sidebar-18,
+.sidebar-19,
+.sidebar-20,
+.sidebar-21,
+.sidebar-22,
+.sidebar-23,
+.sidebar-24,
+.sidebar-25,
+.sidebar-26,
+.sidebar-27 {
+  display:flex;
+  border-radius: 10px;
+  vertical-align: middle;
+  align-items: center;
+  cursor: pointer;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+
+}
+
+.sidebar-1 {
+  background-color: rgb(242,242,242);
+}
+
+.sidebar-3,
+.sidebar-8,
+.sidebar-18,
+.sidebar-23,
+.sidebar-27 {
+  margin-bottom: 10px;
+}
+
+.sidebar-2:hover,
+.sidebar-3:hover,
+.sidebar-4:hover,
+.sidebar-5:hover,
+.sidebar-6:hover,
+.sidebar-7:hover,
+.sidebar-8:hover,
+.sidebar-9:hover,
+.sidebar-10:hover,
+.sidebar-11:hover,
+.sidebar-12:hover,
+.sidebar-13:hover,
+.sidebar-14:hover,
+.sidebar-15:hover,
+.sidebar-16:hover,
+.sidebar-17:hover,
+.sidebar-18:hover,
+.sidebar-19:hover,
+.sidebar-20:hover,
+.sidebar-21:hover,
+.sidebar-22:hover,
+.sidebar-23:hover,
+.sidebar-24:hover,
+.sidebar-25:hover,
+.sidebar-26:hover,
+.sidebar-27:hover {
+  background-color: rgb(242,242,242);
+}
+
+
+
+
+
+
+.legals-top {
+  display:flex;
+  padding-left: 12px;
+  padding-bottom: 2px;
+  padding-top: 15px;
+}
+
+.legals-middle {
+  display: flex;
+  padding-left: 12px;
+  padding-bottom: 10px;
+}
+
+.legals {
+  display:flex;
+  padding-left: 12px;
+  padding-bottom: 2px;
+}
+
+
+
+
+.about,
+.press,
+.copyright,
+.contact-us,
+.creators,
+.advertise,
+.developers,
+.terms,
+.privacy,
+.policy,
+.how-youtube-works,
+.test-new-features {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(83, 83, 83);
+  padding-right: 10px;
+}
+
+.copyright2023 {
+  font-size: 12px;
+  font-weight: 300;
+  padding-left: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+

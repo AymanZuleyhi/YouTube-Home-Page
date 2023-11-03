@@ -1,0 +1,48 @@
+@media (0px <= width <= 1080px) {
+  .video-box-1,
+  .video-box-2  {
+  grid-template-columns: 50% 50%;
+  padding-left: 80px;
+  padding-right: 30px;
+  }
+  }
+
+  @media (1080px <= width <= 1300px) {
+    .video-box-1,
+    .video-box-2  {
+    grid-template-columns: 33% 33% 33%;
+    padding-left: 80px;
+    padding-right: 40px;
+    }
+    }
+
+    @media (1300px <= width <= 1600px) {
+      .video-box-1,
+      .video-box-2  {
+      grid-template-columns: 33% 33% 33% ;
+      margin-right: 10px;
+      }
+      }
+ 
+      @media (1600px <= width <= 2000px) {
+        .video-box-1,
+        .video-box-2  {
+        grid-template-columns: 25% 25% 25% 25% ;
+        margin-right: 40px;
+        }
+        }
+ 
+        @media (2001px <= width <= 2300px) {
+          .video-box-1,
+          .video-box-2  {
+          grid-template-columns: 20% 20% 20% 20% 20% ;
+          margin-right: 50px;
+          }
+          }
+ 
+          @media (2300px <= width <= 10000px) {
+            .video-box-1,
+            .video-box-2  {
+            grid-template-columns: 16% 16% 16% 16% 16% 16% ;
+            }
+            }
